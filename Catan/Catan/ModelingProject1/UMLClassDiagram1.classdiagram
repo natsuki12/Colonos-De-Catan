@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="355cd523-549c-41e3-baf2-0857785a1bf6" name="DIAGRAMA DE CLACES CATAN" linkedPackageId="a8f81d66-0f26-4275-ba10-caa6c36d619d" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="c49674ee-3767-4ab6-b11a-2f0b1cdf782b">
+      <elementDefinition Id="93407cce-df60-4c66-a9ef-85100c0b1d33" />
+      <body>ES EL LANZAMIENTO DEL PRIMER DADO
+</body>
+      <annotatedElements>
+        <classMoniker Id="3c6f8317-01b3-4db8-acb9-fe55df2b0e1d" LastKnownName="Class5" />
+      </annotatedElements>
+    </comment>
+    <comment Id="1d79af21-e5f8-4c7e-9454-dd3a690f43a0">
+      <elementDefinition Id="e2fa3803-bc1a-4fa2-8df2-ceb095cb37b5" />
+      <body>ES EL LAZAMIENTO DEL SEGUNDO DADO
+</body>
+      <annotatedElements>
+        <classMoniker Id="3c6f8317-01b3-4db8-acb9-fe55df2b0e1d" LastKnownName="Class5" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="b5d028f4-6009-485a-96f0-cdf8da006d36">
+      <profileInstance Id="ef9087ca-1a15-466f-8482-3ff210d81050" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="4e37b658-49ab-48c9-8ad4-57ee3e9dbc45">
+      <profileInstance Id="eaeeb621-2488-464c-bed6-12e35cb11cfd" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="720f1c4e-5c4f-47ec-aa47-8b7f1fafccb3" name="Class3" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="17b755c7-6cde-4414-aec5-dde53931c079" />
+        <suppliersInternal>
+          <dependency Id="24d7c65e-a888-4a42-9ef2-2b37ad7e8f5f">
+            <classMoniker Id="d476c490-3685-41c0-81a5-42a6777f958a" LastKnownName="Class4" />
+            <elementDefinition Id="afb9a62e-bc9b-4d93-8071-85e4e44d0c9d" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="9e2c6c82-0884-4ed9-9e2f-8cc9c8caaa72" isSubstitutable="false">
+            <classMoniker Id="d476c490-3685-41c0-81a5-42a6777f958a" LastKnownName="Class4" />
+            <elementDefinition Id="f58568fb-1b1b-44ab-8973-c9d3db245749" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="e476f233-a30a-4ae5-822b-3dc9b604bce0" name="button1_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8c53fc01-5a4c-4361-ad65-25cfd0c1ab98" />
+          </operation>
+          <operation Id="dc4078ad-5442-428f-b7a4-4e14c52c90ee" name="button2_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e836e300-252f-47e5-9a80-258f3f65cdd6" />
+          </operation>
+          <operation Id="2b3b7755-8191-4c9c-ae41-d5bd5946abe8" name="axWindowsMediaPlayer1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="84a5640d-a1d3-43f5-9beb-444160b97c27" />
+          </operation>
+          <operation Id="5e8f71e5-1488-47db-96b2-3172484ec01c" name="button3_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="131f846b-42c5-4d71-bf70-5f6dde673062" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d476c490-3685-41c0-81a5-42a6777f958a" name="Class4" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d80344c3-afe0-44ee-ab01-eec8109d9e32" />
+        <suppliersInternal>
+          <dependency Id="c6a4a8c9-5b78-4444-8136-ed4aaefdce14">
+            <classMoniker Id="3c6f8317-01b3-4db8-acb9-fe55df2b0e1d" LastKnownName="Class5" />
+            <elementDefinition Id="7d2ffcac-717d-4043-84e2-cd47ec993dae" />
+          </dependency>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="55c6ffbe-2f87-44a9-a1f7-cb0ec14a9265" name="button3_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="90378fcb-f4cb-4f40-93c7-677137708918" />
+          </operation>
+          <operation Id="27101cb8-06b7-43b9-9021-d28704e54410" name="buttonj1_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b6b02110-bec8-4c5a-84ce-d0b589d27c55" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3c6f8317-01b3-4db8-acb9-fe55df2b0e1d" name="Class5" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7aa2e502-5bad-4912-8fc5-e0bab3a640bd" />
+        <ownedAttributesInternal>
+          <property Id="fe62ebbe-6b0f-48e0-9fee-63826ccc1399" name="int dado1" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="013d4a05-45fb-47e0-8822-5337800fa156" />
+          </property>
+          <property Id="14074568-79e1-49a1-a67d-f78d20cae50e" name="Random" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="93336e59-64c2-4b5d-9dee-20ac0a1c01fb" />
+          </property>
+          <property Id="2a16ad14-5f50-4a09-9d97-6e2509099fe5" name="int dado2" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d119a73c-62d2-48c3-80b9-a7fa4d770c03" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="6c8e234f-c364-4d23-9a0d-35b729045f42" name="button1_Click_1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="927d575f-ccd0-4d53-a21d-ebc60529592b" />
+          </operation>
+          <operation Id="335d7388-8de7-414c-98c9-288dc534afe7" name="button2_Click" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="cef54fda-a87c-4ae4-b0bc-f8f67fbe7e2d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="a8f81d66-0f26-4275-ba10-caa6c36d619d" name="ModelingProject1">
+    <elementDefinition Id="c6b57347-b1ee-4559-b934-14f7ade0c4ab" />
+  </package>
+</logicalClassDesignerModel>
